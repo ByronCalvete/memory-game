@@ -3,7 +3,7 @@
   font-family: Helvetica, sans-serif;
 }
 
-body
+body 
 {
   margin: 0;
   background-color: #FF8337;
@@ -12,10 +12,10 @@ body
   height: 100vh;
 }
 
-.container
+.container 
 {
-  height: 100hv;
-  width: 100hv;
+  height: 100vh;
+  width: 100vh;
   border-radius: 10%;
   border: 3px solid white;
   overflow: hidden;
@@ -24,7 +24,7 @@ body
   max-width: 60vh;
 }
 
-.color 
+.color
 {
   width: 50%;
   height: 50%;
@@ -36,7 +36,7 @@ body
   float: left;
 }
 
-.right 
+.right
 {
   float: right;
 }
@@ -51,34 +51,34 @@ body
   background-color: #FA1616;
 }
 
-.blue
+.blue 
 {
-  background-color: #111D5E;
+  background: #111D5E;
 }
 
-.blue.light
+.blue.light 
 {
-  background-color: #2C47DD;
+  background: #2C47DD;
 }
 
-.yellow
+.yellow 
 {
-  background-color: #A66D1E;
+  background: #A66D1E;
 }
 
-.yellow.light
+.yellow.light 
 {
-  background-color: #FFA931;
+  background: #FFA931;
 }
 
-.green
+.green 
 {
-  background-color: #438A5E;
+  background: #438A5E;
 }
 
-.green.light
+.green.light 
 {
-  background-color: #73EDA1;
+  background: #73EDA1;
 }
 
 .btn-start 
@@ -92,10 +92,10 @@ body
   font-size: 2.5rem;
   position: absolute;
   top: calc(50% - 50px);
-  left: calc(50% = 150px);
+  left: calc(50% - 150px);
 }
 
-.hide
+.hide 
 {
   display: none;
 }
